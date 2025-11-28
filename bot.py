@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, CommandHandler, filters, ContextTypes
 from yt_dlp import YoutubeDL
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8469554752:AAF1PoFLddzsgDHpB6LvvuiuidmpZULE1BE")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Send me any YouTube link, I will upload the video.")
@@ -29,3 +29,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
