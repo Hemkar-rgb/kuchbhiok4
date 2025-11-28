@@ -5,6 +5,7 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
     envVars:
-      - key: BOT_TOKEN
+      - key: 8469554752:AAF1PoFLddzsgDHpB6LvvuiuidmpZULE1BE
         sync: false
+
 
